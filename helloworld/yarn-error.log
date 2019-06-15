@@ -1,0 +1,47 @@
+Arguments: 
+  E:\usr_local\nodejs\node.exe E:\usr_local\nodejs\node_modules\yarn\bin\yarn.js add express graphql express-grapql
+
+PATH: 
+  C:\Program Files (x86)\NetSarang\Xshell 6\;E:\lingyima\jdk\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;E:\Program Files\redis;E:\Python\Python27;E:\Python\Python27\Scripts;E:\Python\Python36;E:\Python\Python36\Scripts;C:\Program Files\Mozilla Firefox;E:\usr_local\nvm;C:\Program Files\nodejs;E:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;E:\usr_local\go\bin;C:\MinGW\bin;C:\Program Files (x86)\Bitvise SSH Client;E:\usr_local\mongodb\bin;E:\lingyima\wamp64\bin\php\php7.2.4;"E:\adt-bundle-windows-x86_64-20140702\sdk\tools;E:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools";C:\Program Files\OpenSSH\bin;C:\ProgramData\chocolatey\bin;E:\usr_local\flutter\bin;E:\Python\Python36\Scripts\;E:\Python\Python36\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\usr_local\nvm;E:\usr_local\nodejs;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\tools\dart-sdk\bin;C:\Users\Administrator\AppData\Roaming\Pub\Cache\bin;E:\usr_local\nvm;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.3.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/express-grapql: Not found
+      at Request.params.callback [as _callback] (E:\usr_local\nvm\v12.3.1\node_modules\yarn\lib\cli.js:66091:18)
+      at Request.self.callback (E:\usr_local\nvm\v12.3.1\node_modules\yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (E:\usr_local\nvm\v12.3.1\node_modules\yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (E:\usr_local\nvm\v12.3.1\node_modules\yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1137:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "helloworld",
+    "version": "1.0.0",
+    "description": "```sh\r mkdir helloworld && cd helloworld\r npm init --y",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
